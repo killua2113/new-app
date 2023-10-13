@@ -1,0 +1,55 @@
+ // static defaultProps={
+  //   Location:"home"
+
+  // }
+  // static propTypes={
+  //   Location:PropTypes.string
+  // }
+  constructor(){
+    super();
+   this.state={
+      location:"home"
+    }
+    
+    
+    
+    
+  }
+  highlighth=async()=>{
+   await this.setState({location:"home"})
+    console.log(this.state.location)
+  }
+  highlightc=async()=>{
+  //  this.props.Location="climate"
+   await this.setState({location: "climate"}) 
+    console.log(this.state.Location)
+
+  }
+  highlightH=async()=>{
+     await this.setState({location:"health"})
+    console.log(this.state.location)
+
+  }
+  highlighthsp=async()=>{
+    await this.setState({location:"sports"})
+    console.log(this.state.location)
+
+  }
+  highlightS=async()=>{
+    await this.setState({location:"science"})
+    console.log(this.state.location)
+
+  }
+  highlightE= async()=>{
+    await  this.setState({location:"entertainment"})
+    console.log(this.state.location)
+
+  }
+
+
+
+
+
+
+
+  {`nav-link ${this.state.location==="entertainment"?"active":""}`}

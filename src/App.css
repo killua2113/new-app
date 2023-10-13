@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#navbar1{
+  box-shadow: 0px 0px 6px 0px #777;
+  
+}
+#mailt{
+  flex-direction: column;
+}
+#mtext{
+  padding-left: 22px;
+  text-decoration: none;
+  color: black;
+}
+/* #insta{
+  flex-direction: column;
+}
+#itext{
+  text-decoration: none;
+  color: black;
+} */
+/* #mainbox{
+  background-image: url('./images/bgimage.jpg');
+} */
+/* #mainbox{
+  background-color: #282c34;
+  padding: 0px;
+  margin: 0px;
+} */
+/* .mainbox{
+  background-color: #B8CFB8;
+  margin: 0px !important;
+  padding: 0px !important;
+} */
+#upperbox{
+  margin-top: 13px;
+  margin-left: 14px;
+  margin-bottom: 8px;
+}
+.card-body1{
+  display: flex;
+  flex-direction: row;
+}
+.hbtn{
+  margin-left: 15px;
+  margin-top:10px;
+  height: 40px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #3e3f42;
+  width: 100%;
+  height: 280px;
+  /* margin-top: 250px; */
+
+}
+#box1{
+  padding-left: 5px;
+  padding-top: 3px;
+}
+#flogo{
+  padding-left: 12px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul li{
+  list-style: none;
+  color: black;
+}
+
+#sponsor{
+  color: black;
+  margin-top: 15px;
+}
+#box2{
+  padding-left: 15px;
+}
+#box3{
+  padding-left:40px;
+  color: black;
+  padding-top: 17px;
+
+
+}
+#topnews{
+  padding: 10px;
+}
+.serviceslist{
+  padding-top: 2px;
+}
+#box4{
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.fsmedia{
+  display: flex;
+  flex-direction: row;
+  
+}
+#follow{
+  margin-right: 5px;
+  padding-top: 6px;
+  color: black;
+}
+#follow li{
+  padding-left: 5px ;
+}
+#ftwitter{
+  padding-left: 20px;
+}
+#ffacebook{
+  padding-left: 20px;
+
+}
+#finsta{
+  padding-left: 20px;
+}
+#fyoutube{
+  padding-left: 20px;
+}
+#fpinterest{
+  padding-left: 20px;
+}
+#line{
+  color: black;
+  border-top: 2px solid white;
+  margin-left: 125px;
+}
+#fin{
+  padding-left: 20px;
+}
+.business{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  padding-top: 20px;
+}
+.nav-item{
+  font-family: 'Comfortaa', cursive;
+}
+.body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #767980;
+  /* background-image: url("http://source.unsplash.com/1600x900/?weather forecast"); */
+  background-position: center;
+  font-size: 120%;
+}
+.Ccard{
+  display: inline;
+  background-color: #eaeaea;
+  border-radius: 30px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 420px;
+  margin-top: 6rem;
+  font-family: 'Open Sans', sans-serif;
+  background: #000000d0;
+  color: white;
+
+}
+.inotes{
+  margin-top: 115px;
+  margin-bottom: 65px;
+  
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.otherdata{
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+pre{
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+.city
+{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+input.search-bar
+{
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 120%;
+}
+.inputbutton{
+  margin: 0.5em;
+  border-radius:  50%; 
+  border: none;
+  height: 46px;
+  width: 46px;
+  outline: none;
+  background:#7c7c7c2b ;
+
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  
+
+}
+.inputbutton:hover{
+  background: #7c7c;
+}
+#headline
+{
+  margin-top: 100px;
+}
+#notesitem{
+  margin-top: 100px;
+}
+i{
+  cursor: pointer;
+}
+#loginform{
+  margin-top: 130px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+.signup{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
